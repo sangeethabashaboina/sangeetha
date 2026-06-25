@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile Card UI</title>
+
+<style>
+
+body{
+    background:#eef2ff;
+    font-family:Arial;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:20px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 4px 10px gray;
+}
+
+.card img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+
+h2{
+    color:#333;
+}
+
+p{
+    color:#666;
+}
+
+button{
+    background:#4c63ff;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#3248d3;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <img src="https://via.placeholder.com/100" alt="Profile">
+
+    <h2>Mokshitha Ambhati</h2>
+
+    <p>Web Developer Student</p>
+
+    <button>Follow</button>
+
+</div>
+
+</body>
+</html>
